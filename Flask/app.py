@@ -9,7 +9,7 @@ from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
 app = Flask(__name__)
 model = load_model(
-    "/Users/aishaandatt/Downloads/wildhacks/model.h5")
+    "/Users/aishaandatt/Downloads/ANIMAL_WILDHACKS/alert.h5")
 
 
 @app.route('/')
@@ -123,7 +123,8 @@ def upload():
                  'whale',
                  'wolf',
                  'wombat', 'woodpecker',
-                 'zebra']
+                 'zebra',
+                 'human']
 
         print(np.argmax(preds))
 
@@ -151,4 +152,5 @@ def upload():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, threaded=False)
+    app.run(host='192.168.29.83')
+    # debug=True, threaded=False)

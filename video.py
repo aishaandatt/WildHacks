@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 from twilio.rest import Client
 
 model = load_model(
-    '/Users/aishaandatt/Downloads/wildhacks/model.h5')
+    '/Users/aishaandatt/Downloads/ANIMAL_WILDHACKS/alert.h5')
 # To read webcam
 video = cv2.VideoCapture(0)
 # Type of classes or names of the labels that we considered
@@ -100,7 +100,8 @@ name = ['antelope',
         'whale',
         'wolf',
         'wombat', 'woodpecker',
-        'zebra']
+        'zebra',
+        'human']
 # To execute the program repeatedly using while loop
 while(1):
     success, frame = video.read()
