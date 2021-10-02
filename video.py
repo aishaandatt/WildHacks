@@ -117,9 +117,9 @@ while(1):
     pred = model.predict_classes(x)
     if pred[0] == 2:
         # twilio account ssid
-        account_sid = 'AC4c30a8e1c7127a077cbf05414eb7ef38'
+        account_sid = 'AC4c30xxxxxxx'
         # twilo account authentication toke
-        auth_token = 'd22f9b76fffb3403cda21cec95461000'
+        auth_token = 'd22xxxxxx'
         client = Client(account_sid, auth_token)
 
         message = client.messages \
