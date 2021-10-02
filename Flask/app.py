@@ -130,9 +130,9 @@ def upload():
         text = "the predicted animal is : " + str(index[np.argmax(preds)])
         if np.argmax(preds) == 11:
             # twilio account ssid
-            account_sid = 'AC4c30a8e1c7127a077cbf05414eb7ef38'
+            account_sid = 'AC4cxxxxxx'
             # twilo account authentication toke
-            auth_token = '6bf1afb472c5d1b24bf9a3b118387f49'
+            auth_token = '6bf1xxxxxx'
             client = Client(account_sid, auth_token)
 
             message = client.messages \
