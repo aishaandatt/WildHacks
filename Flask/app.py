@@ -122,14 +122,15 @@ def upload():
                  'turtle',
                  'whale',
                  'wolf',
-                 'wombat', 'woodpecker',
+                 'wombat',
+                 'woodpecker',
                  'zebra',
                  'human']
 
         print(np.argmax(preds))
 
         text = "the predicted animal is : " + str(index[np.argmax(preds)])
-        if np.argmax(preds) == 11:
+        if np.argmax(preds) != 91:
             # twilio account ssid
             account_sid = 'AC4cxxxxxx'
             # twilo account authentication toke

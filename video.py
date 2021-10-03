@@ -116,7 +116,7 @@ while(1):
                 cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 1)
 
     pred = model.predict_classes(x)
-    if pred[0] == 2:
+    if np.argmax(pred) != 91:
         # twilio account ssid
         account_sid = 'AC4c30xxxxxxx'
         # twilo account authentication toke
