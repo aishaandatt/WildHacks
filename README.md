@@ -25,9 +25,8 @@
 ### Compiling our model
 ##### No. of epochs-15
 ##### Steps per epoch-169
-### Finaliing our model
+### Finalising our model
 ##### Accuracy-0.9268
-##### Val Accuracy-
 ##### Loss-0.2519
 ### Screenshots
 ### Video link
