@@ -153,5 +153,4 @@ def upload():
 
 
 if __name__ == '__main__':
-    app.run(host='192.168.29.83')
-    # debug=True, threaded=False)
+    app.run(debug=True, threaded=False)
