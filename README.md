@@ -1,9 +1,9 @@
 # Wild-Hacks Hackathon
 
-## Team Members
-##### Aishaan Datt, VIT
-##### Prayag Sharma, VIT
-##### Vatsal Verma, VIT
+### Team Members
+##### [Aishaan Datt](https://github.com/aishaandatt)
+##### [Prayag Sharma](https://github.com/prayag2301)
+##### [Vatsal Verma](https://github.com/vatsal259)
 
 ## Instructions for running the code
 ##### 1. git clone the repository
@@ -29,4 +29,5 @@
 ##### Accuracy-0.9268
 ##### Loss-0.2519
 ### Screenshots
+##### <img src="https://github.com/aishaandatt/WildHacks/blob/master/Graph.png" alt="Accuracy and loss graph" style="height: 320px; width:320px;"/>
 ### Video link
